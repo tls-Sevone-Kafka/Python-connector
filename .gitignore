@@ -65,3 +65,7 @@ target/
 
 #Temp test code
 test.py
+client-test.py
+
+#env
+.env

@@ -1090,6 +1090,9 @@ class DevicesApi(object):
                  returns the request thread.
         """
         kwargs['_return_http_data_only'] = True
+        print("-------------------")
+        print(self.api_client.default_headers)
+        print("-------------------")
         if kwargs.get('async_req'):
             return self.get_devices_with_http_info(options, **kwargs)  # noqa: E501
         else:

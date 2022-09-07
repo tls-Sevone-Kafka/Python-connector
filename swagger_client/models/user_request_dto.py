@@ -37,7 +37,7 @@ class UserRequestDto(object):
         'password': 'password'
     }
 
-    def __init__(self, name='admin', password='JkYm2KWmDdfcxv8'):  # noqa: E501
+    def __init__(self, name, password):  # noqa: E501
         """UserRequestDto - a model defined in Swagger"""  # noqa: E501
         self._name = None
         self._password = None
