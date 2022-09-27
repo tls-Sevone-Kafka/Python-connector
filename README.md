@@ -1,6 +1,6 @@
 ## Introduction
 
-A Python-based Connector Application that connects to and subscribes to the the Kafka Topic on Event Streams based on IBM Cloud, formats the consumed messages and sends to SevOne NPM via SevOne REST API.
+A Python-based Connector Application that connects to and subscribes to the Kafka Topic on Event Streams based on IBM Cloud, formats the consumed messages and sends to SevOne NPM via SevOne REST API.
 
 ## Prerequisites
 
@@ -26,7 +26,6 @@ Clone the repository and install the package from source
 pip install -r requirements.txt
 pip install .
 ```
-
 #### Setup connections variables
 Copy the `env.sample` file to `.env` and change the values in the `.env` file with IBM Event Streams credentials and SevOne credentials.
 
