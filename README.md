@@ -42,4 +42,5 @@ Run the consumer, consume the message in the Kafka Topic, convert it to the appr
 The application will keep running until it is interrupted by `Ctrl+C`.
 
 New items are then created on SevOne NPM, which can be seen via the SevOne NPM GUI.
+
 ![SevOne NPM GUI](/images/3.png "SevOne NPM GUI")
