@@ -52,8 +52,7 @@ class ConsumerTask(object):
                 # Sign In Request
                 api_response = sevone.sign_in.SignIn(name=self.username, password=self.password).request()
                 # Create Device Request
-                # request = sevone.create_device.CreateDevice(device_name=received_data['hostname'],token=api_response.token).request()
-                # print("-------------------------------------------------")
+                request = sevone.create_device.CreateDevice(device_name=received_data['hostname'],token=api_response.token).request()
             else:
                 print('No messages consumed')
                 yield from asyncio.sleep(2)
